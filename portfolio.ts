@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Usama Bhatti',
   title: "Hi all, I'm Usama",
   description:
-    "I'm a passionate Full Stack developer having an experience of web and native applications with Php, Angular, React.js, React-native, Ionic, Nodejs.",
+    "I'm a passionate Full Stack developer having experience in web and native applications with Php, Angular, React.js, React-native, Ionic, Nodejs.",
   resumeLink:
     'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };
@@ -44,10 +44,10 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in Angular,React.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Building responsive static websites using Nodejs and Php'),
+        emoji('⚡ Building RESTful APIs in Expressjs & Laravel Php Framework'),
       ],
       softwareSkills: [
         {
@@ -59,29 +59,36 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'vscode-icons:file-type-css',
         },
         {
+          skillName: 'Bootstrap',
+          fontAwesomeClassName: 'logos:bootstrap',
+        },
+        {
+          skillName: 'Tailwindcss',
+          fontAwesomeClassName: 'logos:tailwindcss',
+        },
+        {
           skillName: 'JavaScript',
           fontAwesomeClassName: 'logos:javascript',
+        },
+        {
+          skillName: 'Typescript',
+          fontAwesomeClassName: 'logos:typescript',
+        },
+        {
+          skillName: 'Angular',
+          fontAwesomeClassName: 'logos:angular',
         },
         {
           skillName: 'Reactjs',
           fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
         },
         {
-          skillName: 'Nextjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
+          skillName: 'Nodejs',
+          fontAwesomeClassName: 'vscode-icons:file-type-node',
         },
         {
-          skillName: 'Python',
-          fontAwesomeClassName: 'logos:python',
-        },
-        {
-          skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
-        },
-
-        {
-          skillName: 'Redux',
-          fontAwesomeClassName: 'logos:redux',
+          skillName: 'Express',
+          fontAwesomeClassName: 'logos:express',
         },
         {
           skillName: 'NPM',
@@ -90,6 +97,18 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Yarn',
           fontAwesomeClassName: 'logos:yarn',
+        },
+        {
+          skillName: 'Php',
+          fontAwesomeClassName: 'logos:php',
+        },
+        {
+          skillName: 'Laravel',
+          fontAwesomeClassName: 'logos:laravel',
+        },
+        {
+          skillName: 'Rust',
+          fontAwesomeClassName: 'vscode-icons:file-type-light-rust',
         },
       ],
     },
@@ -136,17 +155,9 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:github-actions',
         },
         {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
-        },
-        {
           skillName: 'Nginx',
           fontAwesomeClassName: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
-        },
+        }
       ],
     },
     {
@@ -154,40 +165,23 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+          '⚡ Learning Smart Contract development using Rust & Solana'
         ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
+        emoji('⚡ Learning NFT Smart Contracts development using ERC-721 Token Standard')
       ],
       softwareSkills: [
         {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
+          skillName: 'Solana',
+          fontAwesomeClassName: 'vscode-icons:file-type-light-solana',
         },
         {
-          skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
+          skillName: 'Rust',
+          fontAwesomeClassName: 'logos:rust',
         },
         {
           skillName: 'Web3js',
           fontAwesomeClassName: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
-        },
+        }
       ],
     },
   ],
@@ -196,7 +190,7 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    progressPercentage: '80', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Backend',
@@ -204,17 +198,17 @@ export const SkillBars: SkillBarsType[] = [
   },
   {
     Stack: 'Programming',
-    progressPercentage: '60',
+    progressPercentage: '80',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
+    schoolName: 'National University Of Modern Languages(NUML)',
+    subHeader: 'Master of Science in Computer Science (MCS)',
+    duration: 'Feb 2018 - May 2020',
     desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    grade: 'Grade B',
     descBullets: [
       'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -224,44 +218,33 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
-  },
-  {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
     role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+    company: 'Cyber Soft Vantage',
+    companyLogo: '/img/icons/common/CSV.jpg',
+    date: 'Aug 2022 – Present',
+    desc: 'I am working as a full stack developer, responsible for developing and maintaining web/mobile based applications apps using Nodejs,Angular,React,React-Native,Ionic,Html,Bootstrap,Css , Php and much more.',
   },
   {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    role: 'Software Engineer',
+    company: 'Stella Technology',
+    companyLogo: '/img/icons/common/Stellatechnology.jpg',
+    date: 'Dec 2021 – Jul 2022',
+    desc: 'I worked as a software Engineer, responsible for developing and maintaining web based applications using nodejs,angular,mysql,postgresql. Worked on authentication, authorization and learnt Jira,Docker etc',
   },
+  {
+    role: 'Php Prestashop Developer',
+    company: 'EBridge Technology',
+    companyLogo: '/img/icons/common/Ebridge.png',
+    date: 'Oct 2020 - Dec 2021',
+    desc: 'Worked as a php prestashop developer.Created custom prestashop modules using php framework symphony,html,css,bootstrap,javascript,ajax, and smarty . I was responsible for creating complete frontend/backend functionality of a prestashop module.',
+  }
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
+    name: 'portfolio',
     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/usamabhattii/developer-portfolio',
+    github: 'https://github.com/UsamaBhattii/portfolio.git',
     link: 'https://developer-portfolio-usamabhattii.vercel.app/',
   },
   {

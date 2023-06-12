@@ -15,7 +15,7 @@ const EducationCard = ({
     <Fade left duration={2000}>
       <Card className="card-lift--hover shadow mt-4">
         <CardBody>
-          <div className="d-flex px-3">
+          <div className="d-flex px-5">
             <div className="pl-4">
               <h5 className="text-info">{schoolName}</h5>
               <h6>{subHeader}</h6>
