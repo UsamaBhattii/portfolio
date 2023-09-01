@@ -28,10 +28,10 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   url: 'https://usamabhattii.github.io/',
-  linkedin: 'https://www.linkedin.com/in/usamabhattii/',
+  linkedin: 'https://www.linkedin.com/in/usama-bhatti-029bb9190',
   github: 'https://github.com/usamabhattii',
-  instagram: 'https://www.instagram.com/usamabhattii_4190',
-  facebook: 'https://www.facebook.com/usamabhattii',
+  instagram: 'https://www.instagram.com/usama_4190/',
+  facebook: 'https://www.facebook.com/usama.bhatti.54584',
   twitter: 'https://twitter.com/usamabhattii',
 };
 
@@ -248,20 +248,15 @@ export const projects: ProjectType[] = [
     link: 'https://developer-portfolio-usamabhattii.vercel.app/',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/usamabhattii/Django-React-Marketplace',
+    name: 'ExtraPaymentGateway',
+    desc: 'With ExtraPaymentGateway, it’s easy to add/remove the prices of products and add multiple payment options for the best customer dealing.',
+    github: 'https://github.com/UsamaBhattii/extrafeepaymentgatewaymoduleprestashop',
   },
   {
     name: 'Technota (Forum)',
     desc: 'Get hands-on experience in technical skills with Technota',
     github: 'https://github.com/usamabhattii/django-react-forum',
-  },
-  {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/usamabhattii/Django-ecommerce',
-  },
+  }
 ];
 
 export const feedbacks: FeedbackType[] = [
