@@ -15,13 +15,13 @@ export const greetings: GreetingsType = {
   name: 'Usama Bhatti',
   title: "Hi all, I'm Usama",
   description:
-    "I'm a passionate Full Stack developer having experience in web and native applications with Php, Angular, React.js, React-native, Ionic, Nodejs.",
+    "I'm a passionate Full Stack developer having experience in web and native applications with Php, Nodejs, Angular, React.js, React-native, Ionic, C#, Rust",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://docs.google.com',
 };
 
 export const openSource = {
-  githubUserName: 'usamabhattii',
+  githubUserName: 'UsamaBhattii',
 };
 
 export const contact = {};
@@ -46,8 +46,8 @@ export const skillsSection: SkillsSectionType = {
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in Angular,React.js'
         ),
-        emoji('⚡ Building responsive static websites using Nodejs and Php'),
-        emoji('⚡ Building RESTful APIs in Expressjs & Laravel Php Framework'),
+        emoji('⚡ Building responsive static websites using Nodejs,C# and Php'),
+        emoji('⚡ Building RESTful APIs in Expressjs,.NET & Laravel Php Framework'),
       ],
       softwareSkills: [
         {
@@ -107,6 +107,10 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:laravel',
         },
         {
+          skillName: 'Csharp',
+          fontAwesomeClassName: 'logos:c',
+        },
+        {
           skillName: 'Rust',
           fontAwesomeClassName: 'vscode-icons:file-type-light-rust',
         },
@@ -133,10 +137,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Azure',
           fontAwesomeClassName: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
         },
         {
           skillName: 'PostgreSQL',
@@ -245,7 +245,7 @@ export const projects: ProjectType[] = [
     name: 'portfolio',
     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
     github: 'https://github.com/UsamaBhattii/portfolio.git',
-    link: 'https://developer-portfolio-usamabhattii.vercel.app/',
+    //link: 'https://developer-portfolio-usamabhattii.vercel.app/',
   },
   {
     name: 'ExtraPaymentGateway',
@@ -279,7 +279,7 @@ export const showContactUs: boolean = true;
 export const seoData: SEODataType = {
   title: 'Usama Bhatti',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
+    'A passionate Full Stack Web and Native Applications Developer.',
   author: 'Usama Bhatti',
 
   keywords: [
