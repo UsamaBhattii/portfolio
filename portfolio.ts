@@ -245,7 +245,7 @@ export const projects: ProjectType[] = [
     name: 'portfolio',
     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
     github: 'https://github.com/UsamaBhattii/portfolio.git',
-    //link: 'https://developer-portfolio-usamabhattii.vercel.app/',
+    link: 'https://portfolio-nas8.vercel.app/',
   },
   {
     name: 'ExtraPaymentGateway',
@@ -253,9 +253,9 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/UsamaBhattii/extrafeepaymentgatewaymoduleprestashop',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/usamabhattii/django-react-forum',
+    name: 'Practice Management System',
+    desc: 'Practice Management System built with angular,node.js,typescript,postgresql,bootstrap that manages different practices.',
+    github: 'https://github.com/UsamaBhattii/meanStackPractice',
   }
 ];
 
